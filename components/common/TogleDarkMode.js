@@ -3,7 +3,7 @@ import { HStack, Switch, Text, useColorMode } from "native-base";
 function ToggleDarkMode() {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
-    <HStack space={2} alignItems="center" py={4}>
+    <HStack space={2} alignItems="center">
       <Text>🌙</Text>
       <Switch
         isChecked={colorMode === "light"}
